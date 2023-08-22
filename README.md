@@ -1,5 +1,7 @@
 # GSoC23-LLVM
+
 This is a summary of the work done in GSoC'2023 under LLVM.
+
 ![LLVM](https://github.com/Krishna-13-cyber/GSoC23-LLVM/blob/content/images/llvm.jpeg)
 
 - Name: Krishna Narayanan
@@ -18,8 +20,8 @@ This is the list of contributions according to the pull requests I have sent:
 
 - https://reviews.llvm.org/D152109
 
-This patch adds support for Clang-Repl documentation, basically it provides all 
-details regarding the usage of Clang-Repl. It emphasizes on the features of 
+This patch adds support for Clang-Repl documentation, basically, it provides all
+details regarding the usage of Clang-Repl. It emphasises the features of
 Clang-Repl that it offers to the user. The REPL nature enables users to prototype,
 experiment and gives a user-friendly experience.
 
@@ -36,7 +38,7 @@ with C++ code to more interactive languages like Python. The above patch adds
 documentation setup for CppInterOp consisting of both sphinx and doxygen 
 documentations. The above patches have covered all topics, points catering to the
 development and usage of CppInterOp which include building from source(installation)
-,usage, FAQs, developer’s documentation, tutorials and references. The tutorials in
+, usage, FAQs, developer’s documentation, tutorials and references. The tutorials in
 the docs give a detailed understanding of C++ InterOp usage, which includes C-C++
 interoperability and C++-python interoperability. 
 
@@ -77,30 +79,30 @@ with the help of magic commands(%%python).
 - https://reviews.llvm.org/D156858
 
 These are miscellaneous patches contributing to the development of current
-documentation setup and content.It includes migration from v1 to v2 configuration
+documentation setup and content. It includes migration from the v1 to the v2 configuration
 for readthedocs setup. Similarly, the Phabricator patch adds Clang-Repl Execution
-Results by Saqib. I enabled the graphviz extension for the llvm/clang docs to
-support graphviz convention for pictorial representation (Under Review).
+Handling Results by Saqib in which I enabled the graphviz extension for the llvm/clang
+documents to support the graphviz convention for pictorial representation (under review).
 
 ## Conclusion
 
 All the goals that were originally proposed have been completed to the best of my
-abilities (xeus-cpp setup has not been merged yet). I will be working on improving
+abilities (the xeus-cpp setup has not been merged yet). I will be working on improving
 these things after suggestions in the upcoming weeks to make tutorials and documentation
 more understandable for users. I will keep working with the compiler research group
-even after the GSoC period contributing to tutorials and landing other development
+even after the GSoC period, contributing to tutorials and landing other development
 patches.
 
-I am extremely grateful to my mentors Vassil, David and for their constant
-help and support in the last two months, many thanks to Vassil for providing help
+I am extremely grateful to my mentors, Vassil and David, for their constant
+help and support in the last two months. Many thanks to Vassil for providing help
 and reviewing the code promptly and guiding me towards the final goal, special
 thanks to Parth and Baidyanath for guiding me during the initial phase of GSoC.
-The journey has been quite full of learning, experiencing new techstack and realizing
+The journey has been quite full of learning, experiencing new techstack and realising
 the importance of documentation and tutorials for a better user experience. I thank
 Vassil and all LLVM community members for giving me this great opportunity to work
-with such an evergreen and interesting community. 
+with such an evergreen and interesting community.
 
-Finally thanking everyone at the compiler research group for assisting throughout
+Finally, thanking everyone at the compiler research group for assisting throughout
 the GSoC period with many new concepts and help I needed. I am also thankful to
 Google for providing me the opportunity to work on this project during the summer,
 which helped me learn a lot and will also surely help in my career in the future.
