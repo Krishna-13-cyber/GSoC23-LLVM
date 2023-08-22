@@ -1,13 +1,13 @@
 # GSoC23-LLVM
 This is a summary of the work done in GSoC'2023 under LLVM.
-![LLVM](https://github.com/Krishna-13-cyber/GSoC23-LLVM/blob/main/images/llvm.jpeg)
+![LLVM](https://github.com/Krishna-13-cyber/GSoC23-LLVM/blob/content/images/llvm.jpeg)
 
-Name: Krishna Narayanan
-Mentors: Vassil Vassilev, David Lange
-Organization: LLVM
-Project Title: Tutorial development with Clang-Repl
-Proposal Page: https://bit.ly/3ONWYNX
-Project Page: https://summerofcode.withgoogle.com/programs/2023/projects/qxuEqL8W
+- Name: Krishna Narayanan
+- Mentors: Vassil Vassilev, David Lange
+- Organization: LLVM
+- Project Title: Tutorial development with Clang-Repl
+- Proposal Page: https://bit.ly/3ONWYNX
+- Project Page: https://summerofcode.withgoogle.com/programs/2023/projects/qxuEqL8W
 
 
 # Contributions:
@@ -16,7 +16,7 @@ This is the list of contributions according to the pull requests I have sent:
 
 ### 1. Update Clang-Repl Documentation
 
-https://reviews.llvm.org/D152109
+- https://reviews.llvm.org/D152109
 
 This patch adds support for Clang-Repl documentation, basically it provides all 
 details regarding the usage of Clang-Repl. It emphasizes on the features of 
@@ -25,11 +25,11 @@ experiment and gives a user-friendly experience.
 
 ### 2. Add C++ InterOp Documentation Setup
 
-https://github.com/compiler-research/CppInterOp/pull/87
-https://github.com/compiler-research/CppInterOp/pull/99
-https://github.com/compiler-research/CppInterOp/pull/105
-https://github.com/compiler-research/CppInterOp/pull/121
-https://github.com/compiler-research/CppInterOp/pull/134
+- https://github.com/compiler-research/CppInterOp/pull/87
+- https://github.com/compiler-research/CppInterOp/pull/99
+- https://github.com/compiler-research/CppInterOp/pull/105
+- https://github.com/compiler-research/CppInterOp/pull/121
+- https://github.com/compiler-research/CppInterOp/pull/134
 
 **CppInterOp** is a clang-based C++ Interoperability library, which enables interoperability
 with C++ code to more interactive languages like Python. The above patch adds
@@ -42,11 +42,11 @@ interoperability and C++-python interoperability.
 
 ### 3. Add xeus-clang-repl Documentation Setup
 
-https://github.com/compiler-research/xeus-clang-repl/pull/33
-https://github.com/compiler-research/xeus-clang-repl/pull/34
+- https://github.com/compiler-research/xeus-clang-repl/pull/33
+- https://github.com/compiler-research/xeus-clang-repl/pull/34
 
 Currently working on xeus-clang-repl docs:
-https://github.com/compiler-research/xeus-clang-repl/pull/35
+- https://github.com/compiler-research/xeus-clang-repl/pull/35
 
 **Xeus-clang-repl** integrates clang-repl with the xeus protocol and is a platform 
 for C++ usage in Jupyter Notebooks. The above patch adds a documentation setup 
@@ -59,7 +59,7 @@ executing simultaneously in the Jupyter cell with the help of magic commands( %%
 ### 4. Add xeus-cpp Documentation Setup
 
 Currently working on deploying xeus-cpp docs:
-https://github.com/compiler-research/xeus-cpp/pull/13
+- https://github.com/compiler-research/xeus-cpp/pull/13
 
 **Xeus-cpp** is an interactive programming environment that allows you to 
 execute C++ code in a Jupyter Notebook. The above patch adds a documentation setup
@@ -72,9 +72,9 @@ with the help of magic commands(%%python).
 
 ### 5. Others
 
-https://github.com/compiler-research/xeus-cpp/pull/12
-https://github.com/vgvassilev/clad/pull/610
-https://reviews.llvm.org/D156858
+- https://github.com/compiler-research/xeus-cpp/pull/12
+- https://github.com/vgvassilev/clad/pull/610
+- https://reviews.llvm.org/D156858
 
 These are miscellaneous patches contributing to the development of current
 documentation setup and content.It includes migration from v1 to v2 configuration
