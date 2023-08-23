@@ -19,11 +19,15 @@ This is the list of contributions according to the pull requests I have sent:
 ### 1. Update Clang-Repl Documentation
 
 - https://reviews.llvm.org/D152109
+- https://reviews.llvm.org/D156858
 
 This patch adds support for Clang-Repl documentation, basically, it provides all
-details regarding the usage of Clang-Repl. It emphasises the features of
-Clang-Repl that it offers to the user. The REPL nature enables users to prototype,
-experiment and gives a user-friendly experience.
+details regarding the usage of Clang-Repl. It emphasises the features of Clang-Repl
+that it offers to the user. The REPL nature enables users to prototype,
+experiment and gives a user-friendly experience. Similarly, the second patch
+adds Clang-Repl Execution Handling Results by Saqib in which we enabled the 
+graphviz extension for the llvm/clang documents to support the graphviz convention
+for pictorial representation (under review).
 
 ### 2. Add C++ InterOp Documentation Setup
 
@@ -46,8 +50,6 @@ interoperability and C++-python interoperability.
 
 - https://github.com/compiler-research/xeus-clang-repl/pull/33
 - https://github.com/compiler-research/xeus-clang-repl/pull/34
-
-Currently working on xeus-clang-repl docs:
 - https://github.com/compiler-research/xeus-clang-repl/pull/35
 
 **Xeus-clang-repl** integrates clang-repl with the xeus protocol and is a platform 
@@ -60,7 +62,6 @@ executing simultaneously in the Jupyter cell with the help of magic commands( %%
 
 ### 4. Add xeus-cpp Documentation Setup
 
-Currently working on deploying xeus-cpp docs:
 - https://github.com/compiler-research/xeus-cpp/pull/13
 
 **Xeus-cpp** is an interactive programming environment that allows you to 
@@ -76,13 +77,10 @@ with the help of magic commands(%%python).
 
 - https://github.com/compiler-research/xeus-cpp/pull/12
 - https://github.com/vgvassilev/clad/pull/610
-- https://reviews.llvm.org/D156858
 
 These are miscellaneous patches contributing to the development of current
 documentation setup and content. It includes migration from the v1 to the v2 configuration
-for readthedocs setup. Similarly, the Phabricator patch adds Clang-Repl Execution
-Handling Results by Saqib in which I enabled the graphviz extension for the llvm/clang
-documents to support the graphviz convention for pictorial representation (under review).
+for readthedocs setup.
 
 ## Conclusion
 
